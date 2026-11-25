@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
 
 
     const api = {
-        key: "ccd598c2ef2448598de8e5f597b59f2f",
+        key: window.WEATHERBIT_KEY,   // set in config.js (not committed)
         baseURL: "https://api.weatherbit.io/v2.0/current",
     }
 
